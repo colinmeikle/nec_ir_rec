@@ -1,0 +1,16 @@
+C+ /C/tools/Sming/Sming/appinit/user_main.cpp
+C+ app/application.cpp
+AR out/build/app_app.a
+LD out/build/app.out
+Running objcopy, please wait...
+Objcopy done
+Run gen_appbin
+No boot needed.
+Generate eagle.flash.bin and eagle.irom0text.bin successully in folder out/firmware.
+eagle.flash.bin-------->0x00000
+eagle.irom0text.bin---->0x9000
+Done
+Checking for spiffs files
+No files found in ./files.
+Creating empty spiff_rom.bin (16384 bytes)
+spiff_rom.bin---------->0x38000
