@@ -10,7 +10,7 @@ This library uses a callback when the IR code has been detected, so there is no 
 Note There is no transmit just receive.
 
 example usage
-
+```C++
 #include <user_config.h>
 #include <SmingCore/SmingCore.h>
 
@@ -27,3 +27,4 @@ void init()
     ir.setIRCallBack(printIR);
     ir. start(IR_PIN);
 }
+```
